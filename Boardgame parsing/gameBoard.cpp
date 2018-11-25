@@ -43,9 +43,9 @@ int main(){
 			gb.grid[i][j].value=temp[1]-'0'+2; //instructions said Y3C has a value of 5 so that means 3 on the gameboard is equal to 5
 			(temp[2]=='C')? gb.grid[i][j].visible=0 : gb.grid[i][j].visible=1;
 			
-			//printf("%c%i%c\t",gb.grid[i][j].colour, gb.grid[i][j].value, (gb.grid[i][j].visible==0)? 'C': 'O'); // prints the gameboard
+			printf("%c%i%c\t",gb.grid[i][j].colour, gb.grid[i][j].value, (gb.grid[i][j].visible==0)? 'C': 'O'); // prints the gameboard
 			
 		}
-		//printf("\n"); //used in printing the gameboard
+		printf("\n"); //used in printing the gameboard
 	}
 }

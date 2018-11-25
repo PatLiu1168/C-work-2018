@@ -1,0 +1,1 @@
+There are two files because I parsed the program in two different ways. One with fgets and the other with fgetc.
